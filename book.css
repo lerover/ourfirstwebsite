@@ -1,0 +1,332 @@
+.parentdiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    padding: 20px 0;
+
+    background-color: rgb(32, 32, 107)
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.menuhomediv {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.menudiv {
+    display: flex;
+    width: 50%;
+}
+
+.menudiv div {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.menudiv div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+
+
+}
+
+.menudiv div span {
+    font-family: arial;
+    font-size: 16px;
+    color: rgba(180, 186, 192, 0.592);
+}
+
+.menudiv div:nth-of-type(2) span:hover {
+    color: white;
+}
+
+.homediv {
+    width: 50%;
+    display: flex;
+}
+
+.homediv div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.homediv div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+
+
+}
+
+.homediv div span {
+    font-family: arial;
+    font-size: 16px;
+    color: rgba(180, 186, 192, 0.592);
+}
+
+.homediv div:nth-of-type(2) span:hover {
+    color: white;
+}
+
+
+.icon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bspdiv {
+    width: 20%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parentdiv1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(45deg, rgb(32, 32, 107), gold)
+}
+
+.parentdiv2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.navlinks {
+
+    max-width: 300px;
+    background: linear-gradient(45deg, rgb(21, 21, 102), gold);
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 7px gold;
+
+}
+
+.navlinks a h3:hover {
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(97, 7, 7);
+
+}
+
+.navlinks ul a:hover {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(97, 7, 7);
+
+}
+
+.sectionchange {
+    max-width: 800px;
+    background: linear-gradient(45deg, white, grey);
+    box-shadow: 0px 2px 7px rgba(128, 128, 128, 0.4);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+
+
+}
+
+.sectionchange div {
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+#chapter1 p {
+    text-indent: 50px;
+}
+
+.border {
+    padding: 10px;
+    border: 3px solid black;
+    text-align: justify;
+   
+    
+}
+
+.firstcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+
+
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+#chapter1 div:nth-of-type(2) p {
+    text-indent: 0;
+}
+
+#chapter1 div:nth-of-type(4) p {
+    text-indent: 0;
+}
+
+#chapter1 div:nth-of-type(5) p {
+    text-indent: 0;
+}
+
+.subcribebox {
+    max-width: 300px;
+    background: linear-gradient(45deg, rgb(21, 21, 102), gold);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: -5px 5px 7px gold;
+    text-align: center;
+}
+
+.subcribebox div {
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+}
+
+.subcribebox div span {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.emailbox {
+    height: 40px;
+    width: 250px;
+    margin: 0 auto 20px;
+    background: linear-gradient(45deg, white, grey);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.subscribebutton {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 2px 3px white;
+
+}
+
+
+
+@media (max-width:900px) {
+
+    .menudiv div img {
+        width: 25px;
+    }
+
+    .homediv div img {
+        width: 35px;
+    }
+
+    .bspdiv {
+
+        justify-content: flex-end;
+
+    }
+
+    .menudiv div:nth-of-type(2) {
+        display: none;
+    }
+
+    .homediv div:nth-of-type(2) {
+        display: none;
+    }
+
+    .icon img {
+        width: 70px
+    }
+
+    .bspdiv img {
+        display: none;
+    }
+
+    .bspdiv img:nth-of-type(2) {
+        display: none;
+    }
+
+    .bspdiv img:nth-of-type(3) {
+        display: block;
+    }
+
+    .right div {
+        display: none;
+    }
+
+    .parentdiv2 {
+        flex-wrap: wrap;
+    }
+
+
+
+    .firstcontainer {
+        display: block;
+        width: 100%;
+    }
+
+    .left {
+        display: block;
+        width: 100%;
+    }
+
+    .subcribebox {
+        margin: 20px auto 20px;
+        max-width: 800px;
+    }
+
+    .navlinks {
+        max-widtH: 800px;
+        margin: 20px auto 10px;
+
+    }
+}
